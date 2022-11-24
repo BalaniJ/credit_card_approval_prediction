@@ -1,32 +1,16 @@
-# Salary Prediction using Machine Learning and Feature Engineering
-Salary Prediction Project
+# Predicting Credit Card Approvals
+Credit Card Approval Prediction Project
 
-Companies like Glassdoor and Paysa are popping up which give potential employees and recruiters access to all sorts of information regarding the profile of a company. These companies provide information ranging from reviews, to jobs and also salaries for said jobs that a given company might have posted.
+Commercial banks receive a lot of applications for credit cards. Many of them get rejected for many reasons, like high loan balances, low-income levels, or too many inquiries on an individual's credit report, for example. Manually analysing these applications is mundane, error-prone, and time-consuming (and time is money!). Luckily, this task can be automated with the power of machine learning and pretty much every commercial bank does so nowadays. 
 
-Since not all employees are not willing to share how much they really make and those that do, do so because of anonymity, we are unable to really see what companies pay with regards to the jobs they hire for.
+Our goal is to look through this dataset and classify applications/applicants as being either worthy enough or not to be issued a credit card. In doing so, we help the applicants achieve a better and faster response rate while also enabling the service providers (banks/other financers) achieve a higher level of resource management.
 
-The problem that arises now is missing data regarding salaries though we do have some insight as to what companies hire for.
+Since, new applications have to be sorted through from start to finish based on the applicants’, the Machine Learning algorithm developed would help speed up this process for the stakeholders.
 
-We can tackle this problem by using Machine Learning and the power of prediction that comes with Machine Learning to estimate salaries for the jobs we dont have any salary data for.
+The notebook with the .ipynb label contains specified cells for data overview, cleaning, exploratory insight analysis, modelling, and evaluations respectively. The relevant graphs can also be found in the outputs of the respective code cells as well.
 
-Here are the files that might be of importance to you...
-
-The jupyter notebook called exploratory_data_analysis.ipynb is for the EDA and to explore the data to see what the distributions look like and how the data is structured. 
-
-The notebook called 'Modeling' is a breakdown of the script.py file and executed in chunks to show the progress at each step.
-
-(These two files reside in the notebooks folder.)
-
-The script.py file is a script that contains the entire code for the Modeling.py file. This script cleans the data, encodes it, standardizes it, creates 4 different models and outputs the results and feature importances to a txt and csv respectively. (This file resides in the src folder, here you can see all the source code)
-
-All the charts you see in the EDA notebook can be found in the reports section.
-
-The feature importances of the data as ranked by the model can be found in the feature importance csv file in the root folder, as well as can be found as an image with filename feature_importances.png.
-
-The predicted salaries are in a csv file in the root folder with the name predictions_salaries.csv
-
-![salaryprediction](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide1.JPG)
-![tableofcontents](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide2.JPG)
+![slide1](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide1.JPG)
+![slide2](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide2.JPG)
 ![slide3](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide3.JPG)
 ![slide4](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide4.JPG)
 ![slide5](https://github.com/BalaniJ/credit_card_approval_prediction/blob/main/creditcardapprovalprojectslides/Slide5.JPG)
